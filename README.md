@@ -56,13 +56,13 @@ You can get the timestamps for the 7 days of the week, and the previous and next
     // Get the timestamps for the 7 days of the week.
     for ($i=0; $i<7; $i++)
     {
-        echo date('l jS \of F Y h:i:s A', $scheduly->dates[$i]);
+        echo "<br/>" . date('l jS \of F Y h:i:s A', $scheduly->dates[$i]);
     }
 
     // Get the timestamps for the 7 days, and the previous and next days.
     for ($i=-1; $i<8; $i++)
     {
-        echo date('l jS \of F Y h:i:s A', $scheduly->dates[$i]);
+        echo "<br/>" . date('l jS \of F Y h:i:s A', $scheduly->dates[$i]);
     }
 
 And, of course, you can get the hourly timestamps for the 7 days of the week.
