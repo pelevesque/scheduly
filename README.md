@@ -2,7 +2,7 @@
 
 ## About
 
-scheduly is a PHP class which returns all the hourly timestamps for a particular week. It's useful for the creation of schedules.
+scheduly is a PHP class which returns all the hourly timestamps for a particular week. It's useful for creating schedules. It handles DST changes, so you'll get one 23 hour day and one 25 hour day a year in timezones with DST.
 
 ## Usage
 
