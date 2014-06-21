@@ -10,17 +10,20 @@
  * @version     1.0
  * @author      Pierre-Emmanuel Lévesque
  * @email       pierre.e.levesque@gmail.com
- * @copyright   Copyright 2009, Pierre-Emmanuel Lévesque
+ * @copyright   Copyright 2009-2014, Pierre-Emmanuel Lévesque
  * @license     MIT License - @see LICENSE.md
  */
+
+namespace Phoenix\Helper;
+
 class scheduly {
 
-	public $week;
 	public $year;
-	public $week_prev;
-	public $week_next;
 	public $year_prev;
 	public $year_next;
+	public $week;
+	public $week_prev;
+	public $week_next;
 	public $dates;
 	public $timestamps;
 
