@@ -14,7 +14,7 @@
  * @license     MIT License - @see LICENSE.md
  */
 
-namespace Phoenix\Helper;
+namespace PEL\Helper;
 
 class scheduly {
 
